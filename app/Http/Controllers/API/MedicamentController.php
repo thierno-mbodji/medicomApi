@@ -15,6 +15,9 @@ class MedicamentController extends Controller
         return response()->json([
             'status' => 200,
             'medicament' => $medicament,
+            'data' => [
+                'test' => '1',
+            ]
         ]);
     }
 
