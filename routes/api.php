@@ -38,7 +38,7 @@ Route::middleware('auth:sanctum')->group(function () {
 
     Route::get('edit-medicament/{id}', [MedicamentController::class, 'edit']);
     Route::post('store-medicament', [MedicamentController::class, 'store']);
-    Route::get('view-medicament', [MedicamentController::class, 'index']);
+    //Route::get('view-medicament', [MedicamentController::class, 'index']);
 
     Route::put('update-medicament/{id}', [MedicamentController::class, 'update']);
     Route::delete('delete-medicament/{id}', [MedicamentController::class, 'delete']);
